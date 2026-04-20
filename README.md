@@ -46,14 +46,14 @@ The project bridges the gap between enterprise ERP concepts (SAP MM/FI modules) 
 p2p-capstone/
 │
 ├── 📂 data/
-│   ├── p2p_dataset.csv          # 120-row realistic P2P transaction dataset
+│   ├── p2p_dataset.csv          # 120-row synthetic P2P transaction dataset
 │   └── generate_data.py         # Script used to generate the dataset
 │
 ├── 📂 app/
 │   └── app.py                   # Streamlit dashboard (main application)
+├── Chinmayee_23053118_Project_documentation.pdf # Documentation of this project
 │
-│
-├── README.md                    # This file
+├── README.md
 └── requirements.txt             # Python dependencies
 ```
 
