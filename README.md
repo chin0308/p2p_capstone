@@ -1,7 +1,8 @@
 # 📦 SAP Procure-to-Pay (P2P) Analytics Dashboard
 
 ### End-to-End Procure-to-Pay Process with Data Analytics Insights
-#### Capstone Project — NexCore Manufacturing Pvt Ltd
+#### Capstone Project - NexCore Manufacturing Pvt Ltd
+##### Submitted by: Chinmayee Ambarish Parwekar, roll no. 23053118
 
 ---
 
@@ -16,7 +17,7 @@
 
 ## 🌐 Project Overview
 
-This capstone project models the complete **SAP Procure-to-Pay (P2P) business process** for a fictitious manufacturing company — **NexCore Manufacturing Pvt Ltd** — and pairs it with a fully functional **Streamlit analytics dashboard** that provides real-time procurement insights.
+This capstone project models the complete **SAP Procure-to-Pay (P2P) business process** for a fictitious manufacturing company - **NexCore Manufacturing Pvt Ltd** - and pairs it with a fully functional **Streamlit analytics dashboard** that provides real-time procurement insights.
 
 The project bridges the gap between enterprise ERP concepts (SAP MM/FI modules) and modern data analytics by:
 
@@ -51,12 +52,6 @@ p2p-capstone/
 ├── 📂 app/
 │   └── app.py                   # Streamlit dashboard (main application)
 │
-├── 📂 docs/
-│   ├── project_documentation.md # Full 5-page project documentation
-│   └── viva_prep.md             # 10 viva Q&As + SAP concept cheat sheet
-│
-├── 📂 screenshots/
-│   └── README.md                # Screenshot descriptions & capture guide
 │
 ├── README.md                    # This file
 └── requirements.txt             # Python dependencies
@@ -102,14 +97,14 @@ p2p-capstone/
 - pip package manager
 - Git (optional, for cloning)
 
-### Step 1 — Clone the Repository
+### Step 1 - Clone the Repository
 
 ```bash
 git clone https://github.com/yourusername/p2p-capstone.git
 cd p2p-capstone
 ```
 
-### Step 2 — Create Virtual Environment (Recommended)
+### Step 2 - Create Virtual Environment (Recommended)
 
 ```bash
 # Windows
@@ -121,13 +116,13 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 
-### Step 3 — Install Dependencies
+### Step 3 - Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### Step 4 — Run the Dashboard
+### Step 4 - Run the Dashboard
 
 ```bash
 streamlit run app/app.py
@@ -138,7 +133,7 @@ The app will open automatically in your browser at:
 http://localhost:8501
 ```
 
-### Step 5 — (Optional) Regenerate Dataset
+### Step 5 - (Optional) Regenerate Dataset
 
 ```bash
 python data/generate_data.py
@@ -163,7 +158,7 @@ python data/generate_data.py
 ### Payment Status
 > Donut chart (Paid/Pending/Overdue) + stacked vendor bar + overdue spend highlighted in red for immediate action.
 
-*(Run the app and capture screenshots from each tab — see `/screenshots/README.md` for guidance)*
+*(Run the app and capture screenshots from each tab - see `/screenshots/README.md` for guidance)*
 
 ---
 
@@ -219,31 +214,19 @@ python data/generate_data.py
 | Data Processing | Pandas | ≥ 2.0 |
 | Visualization | Plotly Express | ≥ 5.0 |
 | Language | Python | ≥ 3.10 |
-| ERP Concept | SAP S/4HANA | — |
-| Docs | Markdown | — |
-| Version Control | Git + GitHub | — |
+| ERP Concept | SAP S/4HANA | - |
+| Docs | Markdown | - |
+| Version Control | Git + GitHub | - |
 
 ---
-
-## 📄 Documentation
-
-| Document | Location | Description |
-|---|---|---|
-| Project Documentation | `docs/project_documentation.md` | Full 5-page academic report |
-| Viva Preparation | `docs/viva_prep.md` | 10 Q&As + SAP cheat sheet |
-| Screenshots Guide | `screenshots/README.md` | Screenshot descriptions |
-| This README | `README.md` | Project overview and setup |
-
----
-
 ## 🎓 Academic Context
 
 This project was developed as a capstone submission covering:
 
-- **Enterprise Resource Planning (ERP)** — SAP MM and FI-AP modules
-- **Business Process Management** — P2P lifecycle mapping
-- **Data Analytics** — KPI design, visualization, trend analysis
-- **Full-Stack Development** — Python, Streamlit, Plotly
+- **Enterprise Resource Planning (ERP)** - SAP MM and FI-AP modules
+- **Business Process Management** - P2P lifecycle mapping
+- **Data Analytics** - KPI design, visualization, trend analysis
+- **Full-Stack Development** - Python, Streamlit, Plotly
 
 **Key learning outcomes:**
 1. Understanding SAP organizational structures and master data
@@ -252,21 +235,9 @@ This project was developed as a capstone submission covering:
 4. Building production-grade dashboards for business decision support
 
 ---
-
-## 📬 Contact
-
-For questions about this project:
-
-- **Project Team:** Capstone Group [Your Name / Team]
-- **Institution:** [Your Institution Name]
-- **Department:** [Your Department]
-- **Guide/Mentor:** [Mentor Name]
-
----
-
 ## 📝 License
 
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
